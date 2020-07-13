@@ -86,7 +86,7 @@ class parse_bravo_pH:
       
       ax1.set( xlabel="Date",
                ylabel="pH Level",
-               title="{0}} pH Levels".format(self.name))
+               title="{0} pH Levels".format(self.name))
 
       # Define the date format
       date_form = DateFormatter("%m-%d %H:%M")
